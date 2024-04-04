@@ -1,5 +1,9 @@
 :root {
-    --base: #262a31;
+    --base-1: #262a31;
+    --base-2: #30363d;
+    --base-3: #45484f;
+    --base-4: #5f6367;
+    --base-5: #a0a0a0;
     --mono-1: #abb2bf;
     --mono-2: #818896;
     --mono-3: #5c6370;
@@ -11,16 +15,4 @@
     --hue-5-2: #ab4940;
     --hue-6: #d39051;
     --hue-6-2: #cfbd78;
-}
-
-.container {
-    background-color: var(--base);
-}
-
-.lowerbar {
-    background-color: var(--hue-6);
-}
-
-.editing {
-    caret-color: var(--mono-1);
 }
