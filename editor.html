@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Highlight -->
+        <script src="highlighting/highlight/highlight.js"></script>
+        <link rel="stylesheet" href="highlighting/styles/verbatim-dark-syntax.css">
+        <script src="highlighting/highlight/languages/rust.js"></script>
+
+        <!-- Code Input -->
+        <!-- V2.2.1 -->
+        <script src="codeInput/code-input.min.js"></script>
+        <link rel="stylesheet" href="codeInput/code-input.min.css">
+        <!-- Code Input Plugins-->
+        <script src="codeInput/plugins/indent.min.js"></script>
+        <script src="codeInput/plugins/auto-close-brackets.min.js"></script>
+        <script src="codeInput/plugins/autodetect.min.js"></script>
+
+        <!-- My Styling -->
+        <link rel="stylesheet" href="styles/editor.css">
+        <link rel="stylesheet" href="styles/themes/verbatim-dark.css">
+        <title>Verbatim</title>
+
+        <!-- Last Code Input Script: Configuration -->
+        <script src="scripts/code-input-config.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="content">
+                <code-input template="syntax-highlighted" language="rust"></code-input>
+            </div>
+            <div class="actions"></div>
+            <div class="header"></div>
+            <div class="lowerbar"></div>
+          </div>
+    </body>
+</html>

@@ -1,0 +1,26 @@
+:root {
+    --base: #262a31;
+    --mono-1: #abb2bf;
+    --mono-2: #818896;
+    --mono-3: #5c6370;
+    --hue-1: #5fa6af;
+    --hue-2: #7eb5e2;
+    --hue-3: #a97cb7;
+    --hue-4: #95b57f;
+    --hue-5: #dc6068;
+    --hue-5-2: #ab4940;
+    --hue-6: #d39051;
+    --hue-6-2: #cfbd78;
+}
+
+.container {
+    background-color: var(--base);
+}
+
+.lowerbar {
+    background-color: var(--hue-6);
+}
+
+.editing {
+    caret-color: var(--mono-1);
+}
