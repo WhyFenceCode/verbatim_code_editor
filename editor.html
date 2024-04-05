@@ -22,13 +22,30 @@
 
         <!-- Last Code Input Script: Configuration -->
         <script src="scripts/code-input-config.js"></script>
+       
     </head>
     <body>
         <div class="container">
             <code-input class="content" template="syntax-highlighted" language="rust" ></code-input>
             <div class="actions"></div>
             <div class="header"></div>
-            <div class="lowerbar"></div>
-          </div>
+            <div class="lowerbar">
+                <p class="lowerbar-text lowerbar-ln-col">Ln:Col 1:1</p>
+                <p class="lowerbar-text lowerbar-spaces">Spaces: 4</p>
+                <p class="lowerbar-text">UTF-8</p>
+                <p class="lowerbar-text">RUST</p>
+                <i data-lucide="github" class="lowerbar-lucid"></i>
+                <i data-lucide="bell" class="lowerbar-lucid"></i>
+            </div>
+        </div>
+
+        <!-- Lucid Icons -->
+        <script src="icons/lucid/lucid.js"></script>
+        <script>
+            lucide.createIcons();
+        </script>
+        
+        <!-- Cursor Move Event -->
+        <script src="scripts/line-col-handler.js"></script>
     </body>
 </html>
