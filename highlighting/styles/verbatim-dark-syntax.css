@@ -5,7 +5,7 @@ Inspired By Atom One Dark
 
 */
 
-@import url(/styles/themes/verbatim-dark.css);
+@import url(../../styles/themes/verbatim-dark.css);
 
 .hljs {
     color: var(--mono-1);

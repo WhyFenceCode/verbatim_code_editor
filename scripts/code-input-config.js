@@ -4,7 +4,6 @@ codeInput.registerTemplate("syntax-highlighted",
         [
             new codeInput.plugins.Indent(true, 4),
             new codeInput.plugins.AutoCloseBrackets()
-            //new codeInput.plugins.Autodetect()
         ]
     )
 );

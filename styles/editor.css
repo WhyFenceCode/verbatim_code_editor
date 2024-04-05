@@ -1,7 +1,9 @@
 @import url(themes/verbatim-dark.css);
+@import url(../fonts/Hack-v3.003-webfonts/web/hack.css);
 
 body {
     margin: 0;
+    font-family: Hack, monospace;
 }
 
 .container {  
@@ -16,10 +18,13 @@ body {
         "header header"
         "actions content"
         "lowerbar lowerbar";
-    background-color: var(--base-1);
+    background-color: var(--base-0);
 }
   
-.actions { grid-area: actions; }
+.actions { 
+    grid-area: actions; 
+    background-color: var(--base-1);
+}
   
 .header { grid-area: header; }
   
@@ -35,6 +40,8 @@ code-input {
     margin: 0!important;
     --padding: 10px!important;
     height: 100%!important;
+    font-family: Hack, monospace!important;
+    font-size: 14px!important;
 }
 
 .editing {
