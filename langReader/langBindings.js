@@ -1,4 +1,4 @@
-{ 
+const LANGUAGES = `{ 
     "abnf" : "abnf", 
     "htaccess" : "apache", 
     "ino" : "arduino",
@@ -21,6 +21,7 @@
     "fsh" : "glsl",
     "vsh" : "glsl",
     "csh" : "glsl",
+    "gsh" : "glsl",
     "go" : "golang",
     "haml" : "haml",
     "hx" : "haxe",
@@ -51,7 +52,6 @@
     "pl" : "perl",
     "pm" : "perl",
     "php" : "php",
-    "txt" : "text",
     "pde" : "processing",
     "py" : "python",
     "pyw" : "python",
@@ -68,6 +68,7 @@
     "swift" : "swift",
     "ts" : "typescript",
     "tsx" : "typescript",
+    "txt" : "text",
     "mts" : "typescript",
     "cts" : "typescript",
     "vala" : "vala",
@@ -76,4 +77,9 @@
     "xml" : "xml",
     "yaml" : "yaml",
     "yml" : "yaml"
+}
+`
+
+function getLangBindings() {
+    return LANGUAGES;
 }
