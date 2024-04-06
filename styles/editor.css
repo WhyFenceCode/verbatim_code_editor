@@ -11,7 +11,7 @@ body {
     height: 100vh;
     display: grid;
     grid-template-columns: 0.3fr 1fr;
-    grid-template-rows: 0.1fr 1fr 0.03fr;
+    grid-template-rows: 0.05fr 1fr 0.03fr;
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
@@ -26,7 +26,10 @@ body {
     background-color: var(--base-1);
 }
   
-.header { grid-area: header; }
+.header { 
+    grid-area: header; 
+    background-color: var(--base-2);
+}
   
 .lowerbar { 
     grid-area: lowerbar; 
