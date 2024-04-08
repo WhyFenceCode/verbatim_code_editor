@@ -27,7 +27,17 @@
     <body>
         <div class="container">
             <code-input class="content" template="syntax-highlighted" language="" data-filepath="main.rs"></code-input>
-            <div class="actions"></div>
+            <div class="actions">
+                <div class="actions-main-name" data-folderpath="C/Users/testuser/desktop/project" data-foldername="">
+                    <p class="actions-main-name-aL project-name"></p>
+                    <div class="actions-main-name-aR">
+                        <i data-lucide="file-plus-2" class="actions-name-lucid"></i>    
+                        <i data-lucide="folder-plus" class="actions-name-lucid"></i>
+                        <i data-lucide="list-collapse" class="actions-name-lucid"></i>
+                        <i data-lucide="folder-sync" class="actions-name-lucid"></i>
+                    </div>
+                </div>
+            </div>
             <div class="header"></div>
             <div class="lowerbar">
                 <p class="lowerbar-text lowerbar-ln-col">Ln:Col 1:1</p>
@@ -51,5 +61,8 @@
         <!-- Language Detection -->
         <script src="langReader/langBindings.js"></script>
         <script src="langReader/lang.js"></script>
+
+        <!-- Name Changes-->
+        <script src="scripts/nameChanger.js"></script>
     </body>
 </html>
